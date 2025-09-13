@@ -25,7 +25,7 @@ def shorten(url: str):
             "url": url,
             "created_at": datetime.datetime.utcnow().isoformat()
         })
-    return {"short_url": f"https://your-service.run.app/{code}"}
+    return {"short_url": f"https://url-shortener-518421825761.europe-west1.run.app/{code}"}
 
 
 @app.get("/{code}")
